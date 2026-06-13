@@ -1,0 +1,54 @@
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+aws_credentials
+
+# Resolved configuration files (template variables substituted)
+*.resolved.json
+infra/**/*.resolved.json
+
+# AWS CLI & Docker
+~/.aws/credentials
+~/.docker/config.json
+.dockerignore
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.Python
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local overrides
+config/local/
+config/*.local.json
+secrets/
+.secrets/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
