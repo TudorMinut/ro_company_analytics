@@ -5,7 +5,7 @@ This project builds a warehouse for Romanian company analytics from national pub
 ## Architecture Diagram
 (/Images/architecture.drawio)
 
-![Architecture Diagram](Images/architecture.jpg)
+(Images/architecture.jpg)
 
 The warehouse is meant to cover all companies present in the Romanian public source data, not a sample dataset.
 
