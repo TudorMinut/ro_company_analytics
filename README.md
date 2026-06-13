@@ -32,7 +32,7 @@ For each company, the model is designed to store a mix of identity, registry, cl
 - Power BI
 
 ## Data Model Diagram
-[dbdiagram Source](C:/ro_company_analytics/silver_star_schema.dbml)
+[](C:/ro_company_analytics/silver_star_schema.dbml)
 
 ![Silver Data Model](Images/data_model.png)
 
