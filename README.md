@@ -3,9 +3,9 @@
 This project builds a warehouse for Romanian company analytics from national public data sources. It is designed to ingest the Romanian company universe exposed by ONRC and MFinante, store raw snapshots in AWS S3, normalize them in Databricks, and expose analytics-ready outputs to Power BI.
 
 ## Architecture Diagram
-(/Images/architecture.drawio)
+[Architecture source](C:/ro_company_analytics/Images/architecture.drawio)
 
-(Images/architecture.jpg)
+![Architecture Diagram](Images/architecture.jpg)
 
 The warehouse is meant to cover all companies present in the Romanian public source data, not a sample dataset.
 
@@ -31,8 +31,7 @@ For each company, the model is designed to store a mix of identity, registry, cl
 - Power BI
 
 ## Data Model Diagram
-
-- [dbdiagram Source](C:/ro_company_analytics/silver_star_schema.dbml)
+[dbdiagram Source](C:/ro_company_analytics/silver_star_schema.dbml)
 
 ![Silver Data Model](Images/data_model.png)
 
