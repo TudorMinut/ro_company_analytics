@@ -8,12 +8,7 @@ The platform is built around:
 - one normalized company dimension row per legal entity in the warehouse
 - one financial fact row per company and reporting year
 
-The warehouse is meant to cover all companies present in the Romanian public source data, not a sample dataset. The exact current company count depends on the latest Databricks load and can be checked directly with:
-
-```sql
-SELECT COUNT(*) AS company_count
-FROM company_ro.silver.dim_firma;
-```
+The warehouse is meant to cover all companies present in the Romanian public source data, not a sample dataset.
 
 For each company, the model is designed to store a mix of identity, registry, classification, geography, and finance data such as:
 
@@ -28,13 +23,11 @@ For each company, the model is designed to store a mix of identity, registry, cl
 
 ## Tech Stack
 
-- AWS ECS Fargate
+- AWS (`ECS Fargate`, `S3`, `ECR`, `EventBridge`, `CloudWatch`)
 - Docker
-- Python `3.12`
-- Amazon S3
+- Python `3.12` (`PySpark`)
 - Databricks
 - Unity Catalog
-- PySpark
 - Delta Lake
 - Power BI
 
@@ -63,7 +56,7 @@ flowchart TD
     gold --> powerbi
 ```
 
-![Silver Data Model](C:/ro_company_analytics/Images/data_model.svg)
+![Silver Data Model](C:/ro_company_analytics/Images/data_model.png)
 
 ## What It Does
 
