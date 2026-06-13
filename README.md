@@ -27,6 +27,7 @@ For each company, the model is designed to store a mix of identity, registry, cl
 - AWS (`ECS Fargate`, `S3 Bucket`, `ECR`, `EventBridge`, `CloudWatch`)
 - Docker
 - Python (PySpark)
+- SQL
 - Databricks
 - Power BI
 
